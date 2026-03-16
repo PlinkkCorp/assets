@@ -1,0 +1,122 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <radialGradient id="glow-purple" cx="20%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-blue" cx="80%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-pink" cx="70%" cy="20%" r="40%">
+      <stop offset="0%" stop-color="#EC4899" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="text-title" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+
+    <linearGradient id="btn-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#C084FC" />
+    </linearGradient>
+
+    <linearGradient id="brand" x1="8" y1="56" x2="56" y2="8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="0.5" stop-color="#d946ef"/>
+      <stop offset="1" stop-color="#10b981"/>
+    </linearGradient>
+
+    <clipPath id="phone-mask">
+      <rect x="0" y="0" width="280" height="560" rx="36" />
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="630" fill="#050509" />
+  
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1" />
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid)" />
+
+  <circle cx="240" cy="150" r="450" fill="url(#glow-purple)" />
+  <circle cx="960" cy="480" r="450" fill="url(#glow-blue)" />
+  <circle cx="840" cy="150" r="350" fill="url(#glow-pink)" />
+
+  <g stroke="rgba(255,255,255,0.1)" stroke-width="1" fill="none">
+    <path d="M -100,350 Q 200,300 400,500 T 900,450" />
+    <path d="M 1300,150 C 1000,250 1100,550 800,650" />
+  </g>
+
+  <g transform="translate(60, 50) scale(1.2)">
+    <circle cx="32" cy="32" r="28" fill="#0b1220"/>
+    <circle cx="32" cy="32" r="26" fill="none" stroke="url(#brand)" stroke-width="3"/>
+    <path d="M22 20h12c6 0 11 5 11 11s-5 11-11 11H26v12" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="stars">
+      <circle cx="18" cy="16" r="0.9" fill="#ffffff" opacity="0.95"/>
+      <circle cx="50" cy="24" r="0.8" fill="#ffffff" opacity="0.9"/>
+      <circle cx="14" cy="44" r="0.8" fill="#ffffff" opacity="0.85"/>
+      <g opacity="0.9" stroke="#ffffff" stroke-linecap="round" stroke-width="1">
+        <line x1="46.5" y1="12.5" x2="49.5" y2="12.5"/>
+        <line x1="48" y1="11" x2="48" y2="14"/>
+      </g>
+      <g opacity="0.85" stroke="#ffffff" stroke-linecap="round" stroke-width="0.9">
+        <line x1="20" y1="50.5" x2="22.2" y2="50.5"/>
+        <line x1="21.1" y1="49.4" x2="21.1" y2="51.6"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(60, 180)">
+    <g transform="translate(0, 0)">
+      <rect width="130" height="32" rx="16" fill="rgba(124, 58, 237, 0.1)" stroke="rgba(124, 58, 237, 0.3)" stroke-width="1" />
+      <circle cx="16" cy="16" r="4" fill="#A78BFA" />
+      <text x="36" y="21" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#A78BFA">plinkk.fr</text>
+    </g>
+
+    <text x="0" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="800" fill="url(#text-title)" letter-spacing="-2">Plinkk</text>
+
+    <text x="0" y="145" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="400" fill="#9CA3AF" width="600">
+      <tspan x="0" dy="0">Créez votre page de liens</tspan>
+      <tspan x="0" dy="36">personnalisée en quelques clics.</tspan>
+    </text>
+
+    <g transform="translate(0, 230)">
+      <rect width="220" height="56" rx="28" fill="url(#btn-gradient)" opacity="0.9" />
+      <text x="110" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">Créer ma page</text>
+      <rect x="5" y="5" width="210" height="46" rx="23" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+    </g>
+  </g>
+
+  <g transform="translate(800, 35) rotate(2)">
+    <rect width="280" height="560" rx="36" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.1)" stroke-width="2" />
+    
+    <g clip-path="url(#phone-mask)" transform="translate(15, 60)">
+      <circle cx="125" cy="50" r="40" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="2" />
+      <text x="125" y="115" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">@votre_pseudo</text>
+
+      <g transform="translate(20, 150)">
+        <rect width="210" height="40" rx="20" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+        <rect x="50" y="16" width="110" height="8" rx="4" fill="rgba(255,255,255,0.6)" />
+        <circle cx="20" cy="20" r="12" fill="#5865F2" opacity="0.8"/> </g>
+      
+      <g transform="translate(20, 205)">
+        <rect width="210" height="40" rx="20" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+        <rect x="50" y="16" width="90" height="8" rx="4" fill="rgba(255,255,255,0.6)" />
+        <circle cx="20" cy="20" r="12" fill="#1DA1F2" opacity="0.8"/> </g>
+
+      <g transform="translate(20, 260)">
+        <rect width="210" height="40" rx="20" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+        <rect x="50" y="16" width="130" height="8" rx="4" fill="rgba(255,255,255,0.6)" />
+        <circle cx="20" cy="20" r="12" fill="#E1306C" opacity="0.8"/> </g>
+    </g>
+
+    <path d="M 30,20 Q 140,10 250,20" stroke="rgba(255,255,255,0.05)" stroke-width="1" fill="none" />
+  </g>
+
+  <path d="M 1100 120 Q 1103 130 1110 132 Q 1103 134 1100 144 Q 1097 134 1090 132 Q 1097 130 1100 120 Z" fill="#FCD34D" opacity="0.7" />
+  <path d="M 700 520 Q 703 530 710 532 Q 703 534 700 544 Q 697 534 690 532 Q 697 530 700 520 Z" fill="#6EE7B7" opacity="0.7" />
+
+</svg>
